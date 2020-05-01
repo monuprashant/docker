@@ -13,6 +13,6 @@ To know more about MySQL Image go to this page: https://hub.docker.com/_/mysql
 Use docker pull Wordpress:3.9-php7.2-apache to download the wordpress Image in which php and apache server is already preconfigured.
 
 
-To know more about Joomla Image go to this page: https://hub.docker.com/_/wordpress
+To know more about wordpress Image go to this page: https://hub.docker.com/_/wordpress
 Setting up MySQL:
 Use docker run -it -e MYSQL_ROOT_PASSWORD=(any password you like) -e MYSQL_USER=(any user name) -e MYSQL_PASSWORD=(any password(recommended not to use root password) -e MYSQL_DATABASE=(any database name) --name wordpress mysql:5.6 this code and it will create a user with a database inside Your MySQL Server.
